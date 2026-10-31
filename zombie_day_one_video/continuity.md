@@ -23,6 +23,13 @@
 - `refs/random_retry.png` and `refs/random_retry_02.png` through `refs/random_retry_10.png` were generated as unrelated random test images at the user’s request. Do not use them as story anchors.
 - Earlier generation attempts initially returned 403. A later retry succeeded; no account/device cause is known.
 
+## Frame QC log
+- Batch 1 accepted: `beat01m01`–`beat01m08`. Rejected first `beat01m03` attempt for strong background blur; changed only the focus clause to make the protagonist crisp, and accepted the reroll.
+- Batch 2 accepted: `beat01m09`, `beat01m10`, `beat02m02`–`beat02m06`.
+- Rejected first `beat01m10` attempt because it invented an “EVACUATION ORDER”; changed only the alert wording clause to request a generic banner with no legible words. Accepted the replacement.
+- `beat02m01` first attempt contained gibberish UI. One repair requested abstract/unreadable UI, but still produced malformed symbols. Further reroll was blocked by the 10-image turn cap. Candidate is not accepted; see `frames/candidate_beat02m01_reroll02.png`. Repair next turn.
+- Batch 2 contact sheet includes accepted images, rejected thumbnails, and the pending candidate.
+
 ## Moderation
 - No moderation block encountered.
 
