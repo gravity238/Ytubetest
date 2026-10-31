@@ -30,6 +30,13 @@
 - `beat02m01` first attempt contained gibberish UI. One repair requested abstract/unreadable UI, but still produced malformed symbols. Further reroll was blocked by the 10-image turn cap. Candidate is not accepted; see `frames/candidate_beat02m01_reroll02.png`. Repair next turn.
 - Batch 2 contact sheet includes accepted images, rejected thumbnails, and the pending candidate.
 
+## Additional frame QC log
+- `beat02m01` repaired and accepted: replaced malformed phone UI with a blank notification banner and clean empty bars.
+- Batch 3 accepted: `beat02m07`–`beat02m09`, `beat03m02`–`beat03m04`.
+- `beat02m10` rejected for invented chairs/shelves/clutter instead of the specified couch-and-table barricade. Candidate saved as `frames/candidate_beat02m10_qc.png`; repair by changing only the prompt clause restricting barricade props.
+- `beat03m01` rejected because it showed unrelated activity and a pre-boarded door instead of the narration beat. Candidate saved as `frames/candidate_beat03m01_qc.png`; repair by changing only the clause directing the shot to the closed door gap and shoe outside.
+- Batch 3 contact sheet includes both rejected candidates.
+
 ## Moderation
 - No moderation block encountered.
 
