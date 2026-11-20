@@ -1,5 +1,5 @@
-frames/*.png
-!frames/.gitkeep
+# Frames MUST be committed — Kaggle clones this repo and needs them.
+# Only generated/derived artifacts belong here.
 padded/
 narration.mp3
 word_timings.json
