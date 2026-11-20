@@ -42,7 +42,12 @@ Brief captured. Style deferred to user reference, delivered as `refs/reference1.
 - Worker split calculated and packets issued.
 
 ### STATE 5 — Frame generation 🔄
-- **Worker 1 (this chat): rows 1–79** (beat01m01 → beat09m10) — IN PROGRESS
+- **Worker 1 (this chat): rows 1–79** (beat01m01 → beat09m10) — 10/79 done
+  - Session image cap is **10 generated images per turn**. Throughput is therefore
+    ~10 frames/turn, not 6. Budget ~8 more turns for Worker 1's slice alone,
+    ~32 turns for the full 316 across all four workers.
+  - Batch 1: beat01m01–01m08 ✅ committed
+  - Batch 2: beat01m09–01m10 ✅ committed; 01m11–01m12 deferred to next turn (cap)
 - Worker 2: rows 80–158 (beat09m11 → beat15m04)
 - Worker 3: rows 159–237 (beat15m05 → beat19m12)
 - Worker 4: rows 238–316 (beat19m13 → beat21m28)
