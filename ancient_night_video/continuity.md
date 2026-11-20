@@ -7,11 +7,11 @@
 
 ## 1. ARTSTYLE BLOCK — copy verbatim into every frame prompt
 
-> Flat 2D cartoon illustration in the style of a modern hand-drawn YouTube explainer. Bold uniform ink outlines of even weight, slightly soft and rounded at the corners, never sketchy or tapered. Characters are simple stick figures with thin black line limbs and large round pure-white heads with no hair, no nose, no ears; faces carry only two bean-shaped black eyes with small white highlights plus a single thin curved line for a mouth, and simple expressive eyebrows drawn as short thin strokes. Flat muted color fills with absolutely no gradients, no airbrush, no cell-shading, no texture maps. Limited palette of warm paper cream, dusty slate blue, muted mustard yellow, soft terracotta, sage green and charcoal ink. Warm single-source lamp or fire glow rendered as a soft flat radial wash of pale yellow over the cream wall, with a simple soft elliptical drop shadow under every object. Subtle paper grain and faint fiber texture across the whole image. Composition is calm, centered, spacious and clean with generous negative space. No photorealism, no 3D, no rendered lighting, no lens effects, no HUD, no UI.
+> Flat 2D cartoon illustration in the style of a modern hand-drawn YouTube explainer. Bold uniform ink outlines of even weight, slightly soft and rounded at the corners, never sketchy or tapered. Characters are simple stick figures with thin black line limbs and large round pure-white heads with no hair, no nose, no ears; faces carry only two bean-shaped black eyes with small white highlights plus a single thin curved mouth line placed at the lower centre of the face, and simple expressive eyebrows drawn as short thin strokes. Flat muted color fills with absolutely no gradients, no airbrush, no cell-shading, no texture maps. Limited palette of warm paper cream, dusty slate blue, muted mustard yellow, soft terracotta, sage green and charcoal ink. Warm single-source lamp or fire glow rendered as ONE single soft even flat ellipse of pale yellow with a feathered edge, with a simple soft elliptical drop shadow under every object; absolutely NO faceted segments, NO angular wedges, NO polygon or crystal shapes, NO rays, NO beams, NO sunburst, NO banding, NO geometric light shapes. Subtle paper grain and faint fiber texture across the whole image. Composition is calm, centered, spacious and clean with generous negative space. No photorealism, no 3D, no rendered lighting, no lens effects, no HUD, no UI.
 
 ## 2. CHARACTER BLOCK — copy verbatim into every frame prompt that contains a figure
 
-> The figure is a stick figure: a large perfect circle head roughly one third of the figure's total height, drawn in pure white with a clean black outline, thin straight black line arms and legs with small round black dot hands and dot feet, no torso shape and no clothing texture. The face is drawn with two black bean-shaped eyes with tiny white glint highlights, thin arched black eyebrows, and a small simple curved mouth. The figure's proportions stay identical across every frame. When more than one figure appears, all figures share this exact construction and differ only in pose, and any late-Paleolithic figure may additionally carry a simple draped animal-hide wrap shown as a flat irregular tan shape.
+> The figure is a stick figure: a large perfect circle head roughly one third of the figure's total height, drawn in pure white with a clean black outline, thin straight black line arms and legs with small round black dot hands and dot feet, NO torso shape, NO body mass, NO clothing texture — the thin black stick lines remain bare and visible everywhere. The face is drawn with two black bean-shaped eyes with tiny white glint highlights, thin arched black eyebrows, and a small simple flat mouth line. The figure's proportions stay identical across every frame. When more than one figure appears, all figures share this exact construction and differ only in pose. Any prehistoric figure may additionally carry an animal-hide wrap, and that wrap is ONLY a small flat irregular tan shape draped over ONE shoulder like a short cape, hanging no lower than the elbow; it never becomes a tunic, a dress, a shirt or a torso, and it never covers the bare stick limbs.
 
 **Naming convention in prompts:**
 - `THE FIGURE` — the modern second-person protagonist (present-day framing, cream room, sofa, lamp)
@@ -24,15 +24,15 @@
 
 ### 3a. NIGHT CAVE (used for ~70% of frames)
 
-> Deep cave interior at night. Rear cave wall is a broad irregular surface of dusty slate blue-grey and charcoal, with soft rounded rock forms and no sharp texture. Floor is flat packed earth in muted umber. A low fire of simple flat mustard and terracotta flame shapes sits at the center, casting a soft flat radial wash of pale yellow light that fades across the cave wall. Furs and hides are flat irregular tan and cream shapes on the floor. Absolute blackness beyond the firelight at the cave mouth. No stars, no moon, no gradient sky.
+> Deep cave interior at night. Rear cave wall is a broad surface of dusty slate blue-grey and charcoal drawn in soft rounded rock forms with completely FLAT single-tone fills and only one flat darker slate tone used for shadow, no gradient or blending across the rock. Floor is flat packed earth in muted umber. A low campfire of flat two-tone mustard and terracotta flame shapes with crisp hard edges sits at the center, and its firelight on the cave wall is ONE single soft even flat ellipse of pale yellow with a feathered edge, with no faceted segments, no angular wedges and no geometric light shapes. Furs and hides are flat irregular tan and cream shapes on the floor. Absolute blackness beyond the firelight at the cave mouth. No stars, no moon, no gradient sky.
 
 ### 3b. MODERN ROOM (frame 1, frame 78–80 bookends)
 
-> Modern apartment interior at 3am in flat explainer style. Cream-painted wall with faint vertical seam, dusty slate-blue sofa with simple rounded cushions and visible piping, a small wooden side table with a thin modern lamp and a mug, a large flat dark television panel mounted on the wall showing a grid of muted colored rectangles, a simple potted plant at frame edge, and a warm soft flat radial glow from the lamp. Muted mustard throw blanket rumpled on the sofa.
+> Modern apartment interior at 3am in flat explainer style. Cream-painted wall with faint vertical seam, dusty slate-blue sofa with simple rounded cushions and visible piping, a small wooden side table with a thin modern lamp and a mug, a large flat dark television panel mounted on the wall showing a grid of muted colored rectangles, a simple potted plant at frame edge, and one single soft even flat ellipse of warm pale yellow with a feathered edge radiating from the lamp, never faceted, never wedged, never a sunburst. Muted mustard throw blanket rumpled on the sofa.
 
 ### 3c. MODERN BEDROOM (frames 74–77)
 
-> Modern bedroom at night in flat explainer style. Cream wall, a simple low bed with a flat slate-blue duvet and two cream pillows, a wooden nightstand with a small thin lamp switched off, a dark window rectangle at frame edge with flat black night beyond it, a soft device glow as a flat pale rectangle if a phone is present. Cold blue-grey ambient wash when dark, warm yellow wash when a light is on.
+> Modern bedroom at night in flat explainer style. Cream wall, a simple low bed with a flat slate-blue duvet and two cream pillows, a wooden nightstand with a small thin lamp switched off, a dark window rectangle at frame edge with flat black night beyond it, a soft device glow as a flat pale rectangle if a phone is present. Cold flat blue-grey ambient tone when dark, one soft even single ellipse of warm pale yellow when a light is on, never faceted and never wedged.
 
 ---
 
@@ -121,9 +121,19 @@ A frame passes if:
 | # | File | Role | Prompt summary | Verdict |
 |---|---|---|---|---|
 | A0 | `refs/reference1.png` | **MASTER ANCHOR** (user-supplied) | Modern room, sofa, figure with phone, lamp, TV panel | **APPROVED — canonical style source** |
-| T1 | `refs/style_test_cave.png` | First cave-world test | fire + ancestor + cave wall | TBD |
-| T2 | `refs/style_test_night.png` | Darkness/ember test | near-black cave, dying embers, silhouette | TBD |
-| T3 | `refs/style_test_abstract.png` | Diagram test | flat cream void, ink clock/brain diagram | TBD |
+| T1 | `refs/style_test_cave.png` | First cave-world test | fire + ancestor + cave wall | **REJECTED** — hide wrap became a full tunic with torso; firelight rendered as hard faceted wedges |
+| T1v2 | `refs/style_test_cave_v2.png` | Tunic fix | cape-only hide | **REJECTED** — tunic fixed, but firelight still faceted into crystal wedges |
+| **T1v3** | **`refs/style_test_cave_v3.png`** | **CANONICAL CAVE ANCHOR** | soft even glow, bare stick limbs, cape-only hide | **APPROVED** |
+| **T2** | **`refs/style_test_night.png`** | **CANONICAL DARKNESS ANCHOR** | near-black, dying embers, no figure | **APPROVED** — first roll |
+| **T3** | **`refs/style_test_abstract.png`** | **CANONICAL DIAGRAM ANCHOR** | flat cream void, ink bar diagram | **APPROVED** — first roll |
+
+### Defects found and permanently fixed in the canonical blocks
+
+| # | Defect | Frames affected | Fix applied to `continuity.md` |
+|---|---|---|---|
+| D1 | Animal-hide wrap inflated into a **full tunic with a torso**, destroying the bare stick-figure silhouette | every `[THE_ANCESTOR]` / `[THE_ANCESTORS_GROUP]` frame (~90 rows) | CHARACTER BLOCK now forbids tunic/dress/shirt/torso and restricts the hide to a shoulder cape hanging no lower than the elbow |
+| D2 | Firelight rendered as **hard faceted wedges / crystal polygons** instead of a soft wash | every firelit frame (~180 rows) | ARTSTYLE BLOCK + NIGHT CAVE block now mandate ONE soft even flat ellipse with a feathered edge and explicitly ban faceted segments, wedges, polygons, rays, beams, sunburst and banding |
+| D3 | Mouth drawn too high, close to the eyes | every figural frame | ARTSTYLE BLOCK now specifies the mouth line at the lower centre of the face |
 
 Style tests are generated once and **not committed as frames** — they are the visual contract for the swarm.
 

@@ -1,0 +1,10 @@
+frames/*.png
+!frames/.gitkeep
+padded/
+narration.mp3
+word_timings.json
+frame_timing.json
+concat.txt
+VIDEO.mp4
+*_DELIVERABLE.zip
+__pycache__/

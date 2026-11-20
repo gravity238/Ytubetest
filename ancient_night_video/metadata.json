@@ -1,0 +1,83 @@
+{
+  "project": "ancient_night_video",
+  "slug": "ancient_night",
+  "title": "What Did Ancient Humans Do in the Middle of the Night?",
+  "channel_style_reference": "Ink Explainer (@inkexplainer96)",
+  "created": "2026-11-20",
+  "branch": "arena/8408c759-ytubetest",
+  "repo": "https://github.com/gravity238/Ytubetest.git",
+
+  "format": {
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "codec": "libx264",
+    "pix_fmt": "yuv420p",
+    "audio_codec": "aac",
+    "audio_bitrate": "192k",
+    "loudnorm": "-14 LUFS",
+    "transitions": "HARD CUTS ONLY — zero crossfades, dissolves or fades"
+  },
+
+  "narration": {
+    "engine": "edge-tts",
+    "voice": "en-US-AndrewNeural",
+    "rate": "+10%",
+    "pov": "second person",
+    "word_count": 1940,
+    "projected_runtime": "10:25 @ 3.1 words/sec",
+    "takes": "ONE continuous take with word-level timestamps"
+  },
+
+  "structure": {
+    "slides": 21,
+    "frames": 316,
+    "avg_frame_duration_sec": 1.98,
+    "frame_naming": "frames/beat{slide:02d}m{moment:02d}.png"
+  },
+
+  "visual_style": {
+    "name": "Ink Explainer flat ink-and-color",
+    "anchor_reference": "refs/reference1.png",
+    "canvas_anchor": "refs/style_test_cave_v3.png",
+    "darkness_anchor": "refs/style_test_night.png",
+    "diagram_anchor": "refs/style_test_abstract.png",
+    "palette": {
+      "paper_cream": "#F2E6C8",
+      "warm_cream_light": "#F7DFA8",
+      "mustard": "#E3B23C",
+      "terracotta": "#C4714B",
+      "dusty_slate_blue": "#7E9BB0",
+      "deep_slate": "#3E4A54",
+      "sage_green": "#8FAE87",
+      "charcoal_ink": "#22201E"
+    },
+    "worlds": ["MODERN_ROOM", "MODERN_BED", "CAVE", "CAVE_MOUTH", "ABSTRACT"]
+  },
+
+  "sources": [
+    "Ekirch, A. R. (2001). Sleep We Have Lost: Pre-Industrial Slumber in the British Isles. American Historical Review 106(2), 343-386.",
+    "Ekirch, A. R. (2005). At Day's Close: Night in Times Past. W. W. Norton.",
+    "Dijk, D-J. & Skeldon, A. C. (2015). Human sleep before the industrial era. Nature.",
+    "Wehr, T. A. et al. (1990s). NIMH photoperiod / biphasic sleep laboratory work.",
+    "Boyce, N. — re-examination of the segmented sleep evidence.",
+    "Yetish, G. et al. (2015). Natural sleep and its seasonal variations in three pre-industrial societies. Current Biology (Hadza, San, Tsimane).",
+    "OutlierKit & CreatorRecon channel analyses of @inkexplainer96.",
+    "National Museum of Denmark — Dental health in the Mesolithic period.",
+    "Trinkaus, E. & Villotte, S. (2017). External auditory exostoses and hearing loss in the Shanidar 1 Neandertal. PLOS ONE."
+  ],
+
+  "accuracy_notes": [
+    "Segmented sleep is documented in pre-industrial Europe and early America — NOT claimed as universal.",
+    "The 'Beautyrest invented 8 hours in 1938' myth is deliberately excluded; brief.md forbids it.",
+    "Boyce's critique and the Hadza/San/Tsimane findings are included as counter-evidence on screen.",
+    "No medical advice is given."
+  ],
+
+  "deliverable": {
+    "video": "VIDEO.mp4",
+    "thumbnail": "thumbnail.jpg",
+    "files": ["VIDEO.mp4", "thumbnail.jpg", "metadata.json", "script.md", "youtube.txt"],
+    "zip": "ancient_night_DELIVERABLE.zip"
+  }
+}
